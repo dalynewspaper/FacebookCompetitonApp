@@ -112,7 +112,7 @@ h1 {
     font-size: 40px;
     line-height: 50px;
     letter-spacing: -0.9px;
-    color: #046416;
+    color: #a1a371;
     margin-left: -2px;
 }
 h2 {
@@ -137,7 +137,7 @@ ol { list-style: decimal; }
 dl { margin-bottom: 25px; }
 dt {
     font-weight: bold;
-    color: #046416;
+    color: #a1a371;
 }
 dd {
     padding-left: 20px;
@@ -329,7 +329,7 @@ header hgroup {
     height: 80px;
     width: 400px;
     display: block;
-    top: 3px;
+    top: 0px;
     left: 0;
 }
 header hgroup h1 a {
@@ -475,6 +475,7 @@ section#main .row .col h2 {
     color:#fff;
 }
 
+
 /* -----------------------------------------
    Services
 ------------------------------------------- */
@@ -577,7 +578,7 @@ section#about-us aside .download-btn {
     display: block;
     width: 250px;
     height: 53px;
-    border: 1px solid #066a19;
+    border: 1px solid #a1a371;
     margin: 0 0 20px 0;
     text-align: center;
     line-height: 55px;
@@ -587,9 +588,9 @@ section#about-us aside .download-btn {
     color: #ffffff;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 
-    box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
-    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
-    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #a1a371;
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #a1a371;
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #a1a371;
 }
 
 /* ---------------------------------------------------
@@ -604,7 +605,7 @@ section#contact .primary form {
 section#contact .primary form p {
 	font-family: "MerriweatherBold", Serif;
     font-size: 14.5px;
-	color: #046416;
+	color: #a1a371;
 }
 section#contact .primary form label {
     display: block;
@@ -615,7 +616,7 @@ section#contact .primary form label {
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
 }
 section#contact .primary form label span {
-    color: #046416;
+    color: #a1a371;
 }
 section#contact .primary form input,
 section#contact .primary form select,
@@ -646,16 +647,16 @@ section#contact .primary form input.button {
    	height: 38px;
 	margin: 5px 0;
 	background: #1F8532 url(../images/btn-bg.png);
-    border: 1px solid #066a19;
+    border: 1px solid #a1a371;
     font-family: "MerriweatherBold", Georgia, Serif;
     font-size: 14px;
     color: #ffffff;
     cursor: pointer;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 
-    box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
-    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
-    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #28a441;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #a1a371;
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #a1a371;
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4), inset 0 1px 0 #a1a371;
 }
 .ie7 section#contact .primary form input.button {
     padding: 0 2px;
