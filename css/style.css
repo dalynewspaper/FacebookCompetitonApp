@@ -325,11 +325,11 @@ footer {
 /* Logo */
 header hgroup {
     position: absolute;
-    background: url(../images/logo.png) no-repeat;
-    height: 31px;
-    width: 312px;
+    background: url(../images/wglogo.png) no-repeat;
+    height: 80px;
+    width: 400px;
     display: block;
-    top: 25px;
+    top: 3px;
     left: 0;
 }
 header hgroup h1 a {
