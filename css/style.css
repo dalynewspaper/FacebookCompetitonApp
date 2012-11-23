@@ -96,7 +96,7 @@ p.intro { font-size: 18px; }
 
 /* links */
 a:link, a:visited {
-    color: #285935;
+    color: #a1a371;
     text-decoration: none;
     outline: 0;
 }
@@ -613,7 +613,7 @@ section#contact .primary form {
 section#contact .primary form p {
 	font-family: "MerriweatherBold", Serif;
     font-size: 14.5px;
-	color: #a1a371;
+	color: #3B3B3B;
 }
 section#contact .primary form label {
     display: block;
