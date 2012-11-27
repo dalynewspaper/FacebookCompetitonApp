@@ -745,3 +745,10 @@ footer  ul.footer-menu li:first-child a {
     border: none;
 }
 
+
+#iframe{
+    width: 600px;
+    height: 150px;
+    background: transparent;
+}
+
