@@ -207,6 +207,10 @@ header {
     height: 70px;
     margin: 0 auto;
 }
+.header-picture {
+    width:  900px;
+    height: 700px;
+}
 .content-wrap {
     width: 940px;
     margin: 0 auto;

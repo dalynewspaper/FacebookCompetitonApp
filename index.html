@@ -51,6 +51,11 @@
 
     </header>
 </div>
+<div class="header-picture">
+
+    <img src="images/header.png"  width="100%" height="700px">
+
+</div>
 
 <!-- content-wrap -->
 <div class="content-wrap">
@@ -81,9 +86,7 @@
                 <img src="images/advert.png" width="200" height="200" alt=""/>
             </div>
 
-            <div id="htmlcaption" class="nivo-html-caption">
-                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-            </div>
+       
         </div>
 
         <br/>
@@ -121,11 +124,13 @@
         </div>
 
        <div class="competitionrow">
-                 <section class="col">
-                     <img src="images/fblogo.png" align="left">
+           <section class="col">
+                  <img src="images/fblogo.png" align="left">
                   <h2 align="center" ><br/> <br/> Thank You for being a fan on Facebook! Enter the competition here: </h2>
-                 </section>
-            <section class="col mid">
+
+           </section>
+
+           <section class="col mid">
               
 
 
@@ -191,11 +196,7 @@
 
                     <p>The Westgroves accommodation was designed exclusively with the guest in mind, with our variety of room types catering for the wide range of needs of our customers
 
-                        Our 4 Star Kildare Hotel Provides 99 quiet and comfortable rooms in total, our 66 Deluxe rooms provide ample space, while our 18 Executive Apartments are spacious homes-from-homes and are ideally suited to family or groups of friends. Our 5 individually appointed Suites
-
-                        offer the most discerning traveler an array of choice in pampering and indulgence.
-
-                        Guest comfort and a quiet arena for a good nights sleep are paramount to the Westgrove team. The softest of duvets, the most comfortable beds as well as 24 hour room service are some of the elements that combine to make the Westgroves bedrooms truly memorable for both the business and leisure traveller.
+                        Our 4 Star Kildare Hotel Provides 99 quiet and comfortable rooms in total, our 66 Deluxe rooms provide ample space, while our 18 Executive Apartments are spacious homes-from-homes and are ideally suited to family or groups of friends. 
 
                     </p>
                     
@@ -205,7 +206,7 @@
 
                     <p>
                     At Spa Haven our aim is to create an atmosphere in which you can escape from the pressures of daily life. If just for a short while, forget your concept of time and submerge yourself in a world of pure calm and serenity.
-                    <br/> <br/>  Spa Opening Hours <br/>
+                    <!--<br/> <br/>  Spa Opening Hours <br/>
 
 
                         <br/>Monday    Closed
@@ -217,7 +218,7 @@
                         <br/> Sunday    10 till 5pm
                         <br/>If you require times outside of these hours please contact us on 045 989900 and we will try to accommodate you.
 
-                        <br/><br/>All Gym members receive 20% discount off all spa treatments
+                        <br/><br/>All Gym members receive 20% discount off all spa treatments -->
                     </p>
                 </section>
 
@@ -423,13 +424,12 @@
             <div class="primary">
 
                 <p class="intro">
-                In hac habitasse platea risus dictumst. Suspendisse enim arcu. Aliquam erat volutpat.
-                Phasellus a dui nisi. Nunc nec quam vitae nisl vehicula euismod. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Sed commodo ligula blandit risus. Pellentesque magna mi,
-                iaculis pharetra eu, fermentum ullamcorper nisi. Integer fringilla magna ut quam vulputate erat.
+                Hopefully between our facebook page and our website app you will have all the information you will need about us.
+                If there is any other questions that you may have please do not hesitate to pick up the phone and call us or sent us
+                an email through the contact form below. We will get back to you as soon as we can.
                 </p>
 
-                <form method="post" action="contact.php" id="contactform">
+                <!--<form method="post" action="contact.php" id="contactform">
 
                     <div>
                     <p>Send us a message</p>
@@ -460,15 +460,72 @@
                     <textarea name="message" rows="20" cols="50"  id="message" ></textarea><br /><br />
                     </div>
 
+                 
+
+
+                </form-->
+                 <form name="contactform" method="post" action="send_form_email.php">
+
                     <div>
+                    <p>Send us a message</p>
+                    </div>
+                   
+
+                     <table width="450px">
+                        <tr>
+                         <td valign="top">
+                          <label for="first_name">First Name *</label>
+                         </td>
+                         <td valign="top">
+                          <input  type="text" name="first_name" maxlength="50" size="30">
+                         </td>
+                        </tr>
+                        <tr>
+                         <td valign="top"">
+                          <label for="last_name">Last Name *</label>
+                         </td>
+                         <td valign="top">
+                          <input  type="text" name="last_name" maxlength="50" size="30">
+                         </td>
+                        </tr>
+                        <tr>
+                         <td valign="top">
+                          <label for="email">Email Address *</label>
+                         </td>
+                         <td valign="top">
+                          <input  type="text" name="email" maxlength="80" size="30">
+                         </td>
+                        </tr>
+                        <tr>
+                         <td valign="top">
+                          <label for="telephone">Telephone Number</label>
+                         </td>
+                         <td valign="top">
+                          <input  type="text" name="telephone" maxlength="30" size="30">
+                         </td>
+                        </tr>
+                        <tr>
+                         <td valign="top">
+                          <label for="comments">Message *</label>
+                         </td>
+                         <td valign="top">
+                          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                         </td>
+                        </tr>
+                        <tr>
+                         <td colspan="2" style="text-align:center">
+                        
+                        <div>
+
 			<input type="submit"  value="Submit" class="button">
                 	<input type="reset" value="Reset" class="button">
 
-                    </div>
+                        </div>
 
-
+                         </td>
+                        </tr>
+                        </table>
                 </form>
-
             </div>
 
             <aside>

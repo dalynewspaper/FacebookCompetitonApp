@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title></title><meta http-equiv="refresh" content="0;url= Welcome.html" /></head><body></body></html>
-
 <?php
 if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "dalynewspaper@gmail.com";
     $email_subject = "Your email subject line";
-
 
 
     function died($error) {
@@ -21,22 +16,21 @@ if(isset($_POST['email'])) {
     }
 
     // validation expected data exists
-    if  (!isset($_POST['name']) ||
+    if(!isset($_POST['first_name']) ||
+        !isset($_POST['last_name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['telephone']) ||
-        !isset($_POST['subject']) ||
-        !isset($_POST['message'])) {
+        !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
-    $name = $_POST['name']; // required
+    $first_name = $_POST['first_name']; // required
+    $last_name = $_POST['last_name']; // required
     $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // not required
-    $subject = $_POST['subject']; // required
-    $message = $_POST['message']; // required
+    $comments = $_POST['comments']; // required
 
-
-    $error_message = "There appears to be something wrong with this. Please try again.";
+    $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
@@ -61,12 +55,11 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 
-    $email_message .= "Name: ".clean_string($first_name)."\n";
+    $email_message .= "First Name: ".clean_string($first_name)."\n";
+    $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "telephone ".clean_string($telephone)."\n";
-    $email_message .= "Subject ".clean_string($subject)."\n";
-    $email_message .= "Message ".clean_string($message)."\n";
-
+    $email_message .= "Telephone: ".clean_string($telephone)."\n";
+    $email_message .= "Comments: ".clean_string($comments)."\n";
 
 
 // create email headers
@@ -79,7 +72,9 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- include your own success html here -->
 
 Thank you for contacting us. We will be in touch with you very soon.
-
-<?php
+<script type="text/javascript">
+    window.location="http://pitchify.me/websiteapp"
+</script>
+<?
 }
 ?>
