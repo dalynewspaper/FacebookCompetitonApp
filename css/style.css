@@ -207,10 +207,6 @@ header {
     height: 70px;
     margin: 0 auto;
 }
-.header-picture {
-    width:  900px;
-    height: 700px;
-}
 .content-wrap {
     width: 940px;
     margin: 0 auto;
@@ -333,7 +329,7 @@ header hgroup {
     height: 80px;
     width: 312px;
     display: block;
-<<<<<<< HEAD
+<<<<<< HEAD
     top: 0px;
 =======
     top: 25px;
@@ -403,17 +399,17 @@ section#main .row .col h2 {
     background: url(../images/slider.png) no-repeat;
     margin-top: 30px;
     margin-bottom: 13px;
-    width: 420px;
-    height: 234px;
+    width: 1250px;
+    height: 625px;
 }
 .slider-wrapper #slider {
     position: absolute;
     top: 18px;
     left: 18.5px;
-    width: 383px; /* Make sure your images are the same size */
-    height: 198px; /* Make sure your images are the same size *//
+    width: 1250px; /* Make sure your images are the same size */
+    height: 625px; /* Make sure your images are the same size */
 }
-.slider-wrapper .nivoSlider {
+.slider-wrapper {
 	position: relative;
 	background: #fff url(../images/loading.gif) no-repeat 50% 50%;
 }
