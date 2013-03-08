@@ -391,6 +391,11 @@ section#main .row .col h2 {
     margin-top: 15px;
     margin-bottom: 10px;
 }
+section#main book-room {
+
+ width: 520px;
+ height: 600px;
+}
 
 /* Slider */
 .slider-wrapper {
@@ -452,11 +457,11 @@ section#main .row .col h2 {
 }
 .slider-wrapper a.nivo-nextNav {
 	background-position: -33px 0;
-	right: -50px;
+	right: 50px;
     top: 70px;
 }
 .slider-wrapper a.nivo-prevNav {
-	left: -48.5px;
+	left: 48.5px;
     top: 70px;
 }
 .slider-wrapper .nivo-caption {
@@ -747,8 +752,10 @@ footer  ul.footer-menu li:first-child a {
 
 
 #iframe{
-    width: 600px;
-    height: 150px;
-    background: transparent;
+ position:absolute;
+ top:0;
+ left:0;
+ width: 520px;
+ height: 600px;
 }
 
