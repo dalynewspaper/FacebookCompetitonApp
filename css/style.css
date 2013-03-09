@@ -392,27 +392,29 @@ section#main .row .col h2 {
     margin-bottom: 10px;
 }
 section#main book-room {
-
+ position:absolute;
+ top:0;
+ left:0;
  width: 520px;
  height: 600px;
 }
 
 /* Slider */
 .slider-wrapper {
-    float: center;
+    float: right;
     position: relative;
     background: url(../images/slider.png) no-repeat;
     margin-top: 30px;
     margin-bottom: 13px;
-    width: 1300px;
-    height: 700px;
+    width: 1250px;
+    height: 625px;
 }
 .slider-wrapper #slider {
     position: absolute;
     top: 18px;
     left: 18.5px;
-    width: 1300px; /* Make sure your images are the same size */
-    height: 700px; /* Make sure your images are the same size */
+    width: 1250px; /* Make sure your images are the same size */
+    height: 625px; /* Make sure your images are the same size */
 }
 .slider-wrapper {
 	position: relative;
