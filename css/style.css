@@ -401,7 +401,7 @@ section#main book-room {
 
 /* Slider */
 .slider-wrapper {
-    float: center;
+    float: left;
     position: relative;
     background: url(../images/slider.png) no-repeat;
     margin-top: 30px;
