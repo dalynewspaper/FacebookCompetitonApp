@@ -406,15 +406,15 @@ section#main book-room {
     background: url(../images/slider.png) no-repeat;
     margin-top: 30px;
     margin-bottom: 13px;
-    width: 1250px;
-    height: 625px;
+    width: 1400px;
+    height: 700px;
 }
 .slider-wrapper #slider {
     position: absolute;
     top: 18px;
     left: 18.5px;
-    width: 1250px; /* Make sure your images are the same size */
-    height: 625px; /* Make sure your images are the same size */
+    width: 1400px; /* Make sure your images are the same size */
+    height: 700px; /* Make sure your images are the same size */
 }
 .slider-wrapper {
 	position: relative;
