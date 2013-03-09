@@ -404,7 +404,7 @@ section#main book-room {
     background: url(../images/slider.png) no-repeat;
     margin-top: 30px;
     margin-bottom: 13px;
-    width: 1250px;
+    width: 100%;
     height: 625px;
 }
 .slider-wrapper #slider {
