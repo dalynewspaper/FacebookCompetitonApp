@@ -414,7 +414,7 @@ section#main book-room {
     top: 18px;
     left: 18.5px;
     width: 1400px; /* Make sure your images are the same size */
-    height: 700px; /* Make sure your images are the same size */
+    height: 6px; /* Make sure your images are the same size */
 }
 .slider-wrapper {
 	position: relative;
@@ -460,11 +460,11 @@ section#main book-room {
 .slider-wrapper a.nivo-nextNav {
 	background-position: -33px 0;
 	right: 50px;
-    top: 70px;
+        top: 70px;
 }
 .slider-wrapper a.nivo-prevNav {
-	left: 48.5px;
-    top: 70px;
+	left: 170px;
+        top: 70px;
 }
 .slider-wrapper .nivo-caption {
     /* font-family: Helvetica, Arial, sans-serif; */
