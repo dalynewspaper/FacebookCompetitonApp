@@ -210,6 +210,7 @@ header {
 .content-wrap {
     width: 940px;
     margin: 0 auto;
+    margin-top: -30px;
 }
 .content-wrap section {
     position: relative;
@@ -401,7 +402,8 @@ section#main book-room {
 
 /* Slider */
 .slider-wrapper {
-    float: left;
+    /*float: left; */
+    margin: 0px auto;
     position: relative;
     background: url(../images/slider.png) no-repeat;
     margin-top: 30px;
@@ -767,3 +769,17 @@ footer  ul.footer-menu li:first-child a {
  height: 600px;
 }
 
+.more {
+	display: none;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666; }
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #36f;
+	padding-left: 8px;
+	background: transparent url('down.gif') no-repeat left; }
+a.hideLink {
+	background: transparent url('up.gif') no-repeat left; }
+a.showLink:hover, a.hideLink:hover {
+	border-bottom: 1px dotted #36f; 
+}
