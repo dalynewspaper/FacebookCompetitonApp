@@ -25,6 +25,7 @@
     <script src="js/jquery.easing-1.3.pack.js"></script>
     <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/showHide.js"></script>
 
 </head>
 
@@ -89,16 +90,9 @@
 
         <div style="float:left;">
                 
-            <br/>
-            <br/>
-            <br/>
-
            <h1>Welcome.</h1>
 
            <br/>
-
-
-
 
            <p class="intro">Hello there. Welcome to the Westgrove Hotel. Please enjoy your time on our Facebook Application <br/>
            Please enjoy your time on our app. Here you can see some information about our Hotel and enter our current Facebook
@@ -127,7 +121,7 @@
 
         <div class="row no-bottom-margin">
 
-           <!--p>...This is all visible content...
+           <p>...This is all visible content...
                 <a href="#" id="example-show" class="showLink"
                 onclick="showHide('example');return false;">See more.</a>
             </p>
@@ -136,7 +130,7 @@
                         <p><a href="#" id="example-hide" class="hideLink"
                         onclick="showHide('example');return false;">Hide this content.</a>
                         </p>
-                </div-->
+                </div>
 
             <section class="col">
                 <h2>Bit to eat?</h2>
@@ -201,8 +195,17 @@
                     <p>
                         For a great night out and something a little more contemporary, The Oak Bar is a truly elegant space but with both warmth and character.
                         Here we specialise in international beers, divine cocktails and great bar food and provide weekly entertainment to add to the already buzzing atmosphere.
-        
-                    </p>
+
+                        <a href="#" id="example-show1" class="showLink"
+                         onclick="showHide('example');return false;">See more.</a>
+                        </p>
+
+                        <div id="example" class="more">
+                        <p>...This content is hidden by default...</p>
+                        <p><a href="#" id="example-hide1" class="hideLink"
+                        onclick="showHide('example');return false;">Hide this content.</a>
+                        </p>
+                   
                     
                 </section>
                 <section class="col mid">
@@ -211,13 +214,27 @@
                     <p>
                     The Assaggio Restaurant provides the perfect dining solution throughout the day. Serving breakfast, lunch and dinner, its casual setting adapts
                     perfectly to each. Through a mixture of walnut wood and natural limestone, a warm and relaxed atmosphere is created. The A La Carte menu caters
-                    for a variety of tastes from the old family favourites to the more adventurous with each dish having been designed by our Executive Chefs
+                    for a  
+                        <a href="#" id="example-show2" class="showLink"
+                         onclick="showHide('example');return false;">See more.</a>
+                        </p>
 
-                    <br/><p bold>Assaggio Restaurant Opening Times:
+                        <div id="example" class="more">
+                        <p>variety of tastes from the old family favorites to the more adventurous
+                           with each dish having been designed by our Executive Chefs
 
-                    <br/>7 days per week: 17:00 - 21:30
-                         <p/>
-                    </p>
+                            <p bold>Assaggio Restaurant Opening Times:
+
+                            <br/>7 days per week: 17:00 - 21:30
+
+                            </p>
+
+                            <p><a href="#" id="example-hide2" class="hideLink"
+                            onclick="showHide('example');return false;">Hide this content.</a>
+                            </p>
+
+
+      
                 </section>
 
                 <section class="col">
@@ -226,10 +243,23 @@
                     <p>
                     The reasons for love are as varied as life itself. Luckily you have found yours, Congratulations!
 
-                    <br/>At the Westgrove Hotel we appreciate that each couple have different dreams for their day. We believe that your wedding should be a celebration beyond your expectations and we are here to make your wishes a reality. We have built a reputation of going that extra mile so that the desires of every couple are realised.
+                    <br/>At the Westgrove Hotel we appreciate that each couple have different dreams for their day. We believe that your wedding should be a celebration beyond your expectations
 
-                    <br/>We will ensure that the memories of your Westgrove Wedding will linger long after your special day.
-                    </p>
+                    <a href="#" id="example-show3" class="showLink"
+                         onclick="showHide('example');return false;">See more.</a>
+                        </p>
+
+                        <div id="example" class="more">
+                        <p> and we are here to make your wishes a reality.
+                           We have built a reputation of going that extra mile so that the desires of every couple are realised.
+                           <br/>
+                           We will ensure that the memories of your Westgrove Wedding will linger long after your special day.
+                        </p>
+                        <p><a href="#" id="example-hide3" class="hideLink"
+                        onclick="showHide('example');return false;">Hide this content.</a>
+                        </p>
+
+                    
 
                 </section>
             </div>
@@ -238,19 +268,27 @@
                 <section class="col">
                     <h2>Accommodation </h2>
 
-                    <p>The Westgroves accommodation was designed exclusively with the guest in mind, with our variety of room types catering for the wide range of needs of our customers
-
-                        Our 4 Star Kildare Hotel Provides 99 quiet and comfortable rooms in total, our 66 Deluxe rooms provide ample space, while our 18 Executive Apartments are spacious homes-from-homes and are ideally suited to family or groups of friends. 
-
-                    </p>
+                    <p>The Westgroves accommodation was designed exclusively with the guest in mind, with our variety of room types catering for the wide range of needs of our customers 
+                       Our 4 Star Kildare Hotel Provides 99 quiet and
+                     <a href="#" id="example-show4" class="showLink" onclick="showHide('example');return false;">See more.</a>
+                       <div id="example" class="more">
+                        <p>  comfortable rooms in total, our 66 Deluxe rooms provide ample space,
+                            while our 18 Executive Apartments are spacious homes-from-homes and are ideally suited to family or groups of friends.
+                        </p>
+                        <p><a href="#" id="example-hide4" class="hideLink"
+                        onclick="showHide('example');return false;">Hide this content.</a>
+                        </p>
                     
                 </section>
+
                 <section class="col mid">
                     <h2> Spa </h2>
 
                     <p>
                     At Spa Haven our aim is to create an atmosphere in which you can escape from the pressures of daily life. If just for a short while, forget your concept of time and submerge yourself in a world of pure calm and serenity.
-                    <!--<br/> <br/>  Spa Opening Hours <br/>
+                       <a href="#" id="example-show5" class="showLink" onclick="showHide('example');return false;">See more.</a>
+                       <div id="example" class="more">
+                       <p><br/>  Spa Opening Hours <br/>
 
 
                         <br/>Monday    Closed
@@ -262,18 +300,30 @@
                         <br/> Sunday    10 till 5pm
                         <br/>If you require times outside of these hours please contact us on 045 989900 and we will try to accommodate you.
 
-                        <br/><br/>All Gym members receive 20% discount off all spa treatments -->
-                    </p>
+                        <br/> All Gym members receive 20% discount off all spa treatments
+                        </p>
+                        <p><a href="#" id="example-hide5" class="hideLink"
+                        onclick="showHide('example');return false;">Hide this content.</a>
+
+                    
                 </section>
 
                 <section class="col">
                     <h2> Gym </h2>
 
-                    <p>
+                        <p>
                         The Westgrove hotel Leisure Club and Spa Kildare has been awarded the prestigious ILAM White Flag Award 2009/2010.
-                        This award highlights the exceptional standards in the areas of hygiene, water quality, staff training and development and access to the club.
+                        This award highlights the exceptional standards in the areas of hygiene, water quality, 
                         
-                    </p>
+                         <a href="#" id="example-show6" class="showLink" onclick="showHide('example');return false;">See more.</a>
+                        <div id="example" class="more">
+
+
+                        staff training and development and access to the club.
+
+                        
+                        <p><a href="#" id="example-hide6" class="hideLink"
+                        onclick="showHide('example');return false;">Hide this content.</a>
 
                 </section>
             </div>
