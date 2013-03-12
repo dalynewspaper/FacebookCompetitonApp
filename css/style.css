@@ -47,6 +47,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+        
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -210,7 +211,7 @@ header {
 .content-wrap {
     width: 940px;
     margin: 0 auto;
-    margin-top: -30px;
+  /*  margin-top: -30px; */
 }
 .content-wrap section {
     position: relative;
@@ -400,23 +401,65 @@ section#main book-room {
  height: 600px;
 }
 
+/* ------------------------------------------------------
+    TOP IMAGE
+--------------------------------------------------------- */
+
+/* Top-Image */
+#top-image {
+    background: url(../images/bedroom.png);
+    width: 100%;
+    height: 800px;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+top-image {
+    position: relative;
+    width: 940px;
+    height: 70px;
+    margin: 0 auto;
+}
+
 /* Slider */
-.slider-wrapper {
-    /*float: left; */
+
+#slider-wrapper {
+    background: url(../images/slider.png) no-repeat;
+    width: 100%;
+    height: 800px;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+    slider-wrapper {
+    position: relative;
+    width: 940px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+
+    .slider-wrapper {
+    /*float: left;*/
     margin: 0px auto;
     position: relative;
     background: url(../images/slider.png) no-repeat;
     margin-top: 30px;
     margin-bottom: 13px;
-    width: 1400px;
+    width: 100%;
     height: 700px;
+
 }
 .slider-wrapper #slider {
     position: absolute;
+    margin: 0px auto;
     top: 18px;
     left: 18.5px;
     width: 1400px; /* Make sure your images are the same size */
-    height: 700px; /* Make sure your images are the same size */
+    height: 800px; /* Make sure your images are the same size */
 }
 .slider-wrapper {
 	position: relative;
@@ -436,7 +479,7 @@ section#main book-room {
 	position: absolute;
 	left: 50%;
 	bottom: -45px;
-    margin-left: -30px ; /* Tweak this to center bullets */
+        margin-left: -150px ; /* Tweak this to center bullets */
 }
 .slider-wrapper .nivo-controlNav a {
 	display: block;
@@ -471,7 +514,7 @@ section#main book-room {
 .slider-wrapper .nivo-caption {
     /* font-family: Helvetica, Arial, sans-serif; */
     padding: 5px 10px;
-    width: 363px;
+    width: 100%;
     font-size: 12px;
     text-shadow: none;
     text-align: center;
@@ -493,11 +536,6 @@ section#main book-room {
    
 }
 
-.bg
-{
-  width: 100%;
-  z-index: 0;
-}
 
 /* -----------------------------------------
    Services
