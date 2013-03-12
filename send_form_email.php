@@ -73,7 +73,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 Thank you for contacting us. We will be in touch with you very soon.
 <script type="text/javascript">
-    window.location="http://pitchify.me/websiteapp"
+    window.location="http://westgrovefbapp.azurewebsites.net"
 </script>
 <?
 }
