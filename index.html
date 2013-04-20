@@ -31,6 +31,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=253770041416929";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- header-wrap -->
 <div id="header-wrap">
     <header>
@@ -40,6 +49,8 @@
             <h1><a href="index.html"> Westgrove Facebook App</a></h1>
             <h3>Westgrove Fb App </h3>
         </hgroup>
+
+        <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
 
         <nav>
             <ul>
@@ -114,7 +125,7 @@
             <br/>
             <h2> Check Room Availabilities and Book:  </h2>
             <a href="https://www.facebook.com/WestgroveHotel/app_175413705901350">
-                <img src="images/booknow.png" align="centre" alt="Book Now">
+                <img src="images/booknow.png" alt="Book Now">
             </a>
             
 
@@ -580,7 +591,7 @@ including the recently launched Assaggio Restaurant, which brings dining in Kild
                      <table width="450px">
                         <tr>
                          <td valign="top">
-                          <label for="first_name">First Name *</label>
+                          <label for="first_name">First Name</label>
                          </td>
                          <td valign="top">
                           <input  type="text" name="first_name" maxlength="50" size="30">
@@ -588,7 +599,7 @@ including the recently launched Assaggio Restaurant, which brings dining in Kild
                         </tr>
                         <tr>
                          <td valign="top"">
-                          <label for="last_name">Last Name *</label>
+                          <label for="last_name">Last Name</label>
                          </td>
                          <td valign="top">
                           <input  type="text" name="last_name" maxlength="50" size="30">
@@ -596,7 +607,7 @@ including the recently launched Assaggio Restaurant, which brings dining in Kild
                         </tr>
                         <tr>
                          <td valign="top">
-                          <label for="email">Email Address *</label>
+                          <label for="email">Email Address</label>
                          </td>
                          <td valign="top">
                           <input  type="text" name="email" maxlength="80" size="30">
@@ -612,7 +623,7 @@ including the recently launched Assaggio Restaurant, which brings dining in Kild
                         </tr>
                         <tr>
                          <td valign="top">
-                          <label for="comments">Message *</label>
+                          <label for="comments">Message</label>
                          </td>
                          <td valign="top">
                           <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
