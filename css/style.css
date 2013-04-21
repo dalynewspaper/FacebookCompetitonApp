@@ -443,6 +443,7 @@ section#main book-room {
     height: 800px;
     z-index: 99999;
     position: fixed;
+    z-index: -1;
     top: 0;
     left: 0;
 
